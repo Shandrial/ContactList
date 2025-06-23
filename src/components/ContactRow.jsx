@@ -1,4 +1,4 @@
-function ContactRow({ contact, setSelectedContactID}) {
+function ContactRow({ contact, setSelectedContactId}) {
     const { id, name, phone, email } = contact;
     return (
         <tr onClick={() => setSelectedContactId (id)}>
